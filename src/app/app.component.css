@@ -1,0 +1,22 @@
+#container {
+  
+  width:100vw;
+  height: 100vh;
+  background-image: url(../assets/images/homescreen.jpg);
+  background-size:cover;
+  
+  
+    /* transform: translate(-50%, -50%); */
+  }
+  .center{
+  position: center;
+  
+  margin-left: 300px;
+
+    padding-top: 5px;
+
+
+  
+}
+
+ 
