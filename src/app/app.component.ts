@@ -13,13 +13,13 @@ export class AppComponent {
   apiUrl='https://api.spoonacular.com/recipes/complexSearch?query=paner&number=10&apiKey=0d618f0c9460429db99509ec40e401f0';
 apidata:any;
   constructor(private http:HttpClient){
- 
+      this.apidata=[]
     }
     ngOnInit()
     {
       this.http.get(this.apiUrl).subscribe((data)=>{
           console.warn(data);
-        // this.apidata=data;  
+         this.apidata=data;  
       })
     }
 

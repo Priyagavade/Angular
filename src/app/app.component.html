@@ -6,17 +6,13 @@
       <!-- <img src="../assets/images/homescreen.jpg" alt="homescreen" > -->
     
       <div class="center">
-        <input type="text" #SearchInput   name="" id="" placeholder="search for recipe... "  style="width: 500px; height: 50px;  border-radius: 30px;">
+        <input type="text" #SearchInput   name="title" id="" placeholder="search for recipe... "  style="width: 500px; height: 50px;  border-radius: 30px;">
         <button  (click)="submitsearch(SearchInput.value)" routerLink="/menuitem" style="width: 180px; height: 45px; border-radius: 25px; margin-left: 12px; margin-top: 300px;"> click</button>
       </div>
       
  
 
     </div>
-    <!-- <ul>
-      <li *ngFor="let item  of apidata| titleimage">
-              {{item.title}}: {{item.image}}
-      </li>
-  </ul> -->
+  
 
 </form>
