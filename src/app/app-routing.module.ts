@@ -5,9 +5,10 @@ import { MenuitemComponent } from './menuitem/menuitem.component';
 import { InfoitemComponent } from './infoitem/infoitem.component';
 
 
+
 const routes: Routes = [
 
-  // { path: 'menuitem', component: MenuitemComponent },
+  { path: 'menuitem', component: MenuitemComponent },
   { path: 'infoitem', component: InfoitemComponent }
 ];
 @NgModule({

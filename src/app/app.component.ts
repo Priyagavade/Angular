@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'projectAssesment';
-  apiUrl='https://api.spoonacular.com/recipes/complexSearch?query=pasta&maxFat=25&number=10&apiKey=0d618f0c9460429db99509ec40e401f0';
+  apiUrl='https://api.spoonacular.com/recipes/complexSearch?query=paner&number=10&apiKey=0d618f0c9460429db99509ec40e401f0';
 apidata:any;
   constructor(private http:HttpClient){
  
@@ -21,6 +21,12 @@ apidata:any;
           console.warn(data);
         // this.apidata=data;  
       })
+    }
+
+    submitsearch(data:any){
+      console.warn(data);
+      
+
     }
   }
 
